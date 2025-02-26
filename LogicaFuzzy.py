@@ -105,7 +105,7 @@ class LogicaFuzzy:
         self.tea['moderado'] = fuzz.trapmf(self.tea.universe, [2, 4, 6, 8])
         self.tea['grave'] = fuzz.trapmf(self.tea.universe,   [6, 8, 10, 10])
 
-    def define_regras(self): # 231 REGRAS DEFINIDAS
+    def define_regras(self): # 234 regras com a totalidade de var. e 24 abrangentes -> REGRAS DEFINIDAS
         self.regras = []
         
         # PRIMEIRO PACK - CASOS ISOLADOS -----------------------------------------------------------------------------------------------------
